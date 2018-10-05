@@ -18,3 +18,8 @@ SELECT emp_no, first_name, last_name
 FROM employees
 WHERE first_name LIKE 'M%'
 LIMIT 25 OFFSET 50;
+SELECT CONCAT(
+    'Teaching people to code for ',
+    UNIX_TIMESTAMP() - UNIX_TIMESTAMP('2014-02-04'),
+    ' seconds'
+);
