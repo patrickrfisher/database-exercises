@@ -30,3 +30,4 @@ WHERE emp_no IN (
     WHERE gender = 'F'
   )
 );
+
